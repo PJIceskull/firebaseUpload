@@ -1,0 +1,24 @@
+{
+  "name": "firebaseupload",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "serve": "live-server dist",
+    "compile:sass": "sass dist/scss/styles.scss dist/css/styles.css -w",
+    "build-webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "Pierce Issah",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "firebase": "^11.0.1",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "sass": "^1.80.4",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

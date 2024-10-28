@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 40px;
+}
+
+input,
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+span {
+  padding: 5px 10px;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+  background-color: cornsilk;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($color: cornsilk, $amount: 15%);
+  }
+  &:active {
+    background-color: #fff;
+    border: 2px solid burlywood;
+    color: burlywood;
+  }
+}
+
+.loader {
+  margin-top: 50px;
+  width: 500px;
+  height: 60px;
+  border: 2px solid burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  p {
+    margin-bottom: 0;
+    z-index: 5;
+  }
+}
+
+.bar {
+  height: 100%;
+  //   width: 50px;
+  width: 0;
+  background-color: cornsilk;
+  transition-duration: 0.5s;
+  position: absolute;
+}
+
+.imageHolder {
+  margin-top: 50px;
+  width: 500px;
+}

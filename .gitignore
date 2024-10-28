@@ -1,0 +1,15 @@
+# General 
+.DS_Store 
+Trashes 
+
+# node_modules 
+node_modules 
+
+# Vs code 
+.vscode 
+.npm 
+
+# project 
+/scss 
+/css/style.css.map
+/css/styles.css.map
